@@ -29,6 +29,8 @@ git status
 git add .
 git commit -m "meu primeiro commit"
 gt push origin main
-git pull origin main
 git branch
-git checkout -b minha-branch
+git checkout minha-branch
+git checkout -b "nome da branch de origem" "nome da nova branch"
+git merge "branch a receber merge"
+git pull origin main
